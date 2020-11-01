@@ -1,0 +1,6 @@
+project(*idl): dcps{
+    TypeSupport_Files{    
+        dds_demo.idl
+    }
+    custom_only = 1
+}

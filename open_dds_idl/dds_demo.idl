@@ -1,0 +1,10 @@
+module demo{
+
+    #pragma demo_Simulation_HandleObject "demo::DataType"
+
+     struct DataType{
+        long Handle;
+		double Timestamp;
+    };
+
+};
