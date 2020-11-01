@@ -1,9 +1,9 @@
 module demo{
 
-    #pragma demo_Simulation_HandleObject "demo::DataType"
-
-     struct DataType{
-        long Handle;
+    //#pragma demo_Simulation_HandleObject "demo::DataType"
+	@topic
+    struct DataType{
+        @key long Handle;
 		double Timestamp;
     };
 

@@ -24,3 +24,5 @@ aux_source_directory(../open_dds_idl DIR_SRCS)
 message(warning ${PROJECT_NAME})
 
 add_executable(open_dds_pub ${DIR_SRCS})
+
+target_link_libraries(open_dds_pub TAOd.lib ACEd.lib OpenDDS_Dcpsd.lib)
